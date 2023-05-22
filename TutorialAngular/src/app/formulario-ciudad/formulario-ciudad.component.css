@@ -1,0 +1,13 @@
+.error {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contenedor {
+    padding: 15px;
+}

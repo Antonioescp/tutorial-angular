@@ -1,0 +1,2 @@
+C:\Users\packa\source\repos\TutorialAngular\TutorialAngular\obj\Debug\TutorialAngular.esproj.SuggestedBindingRedirects.cache
+C:\Users\packa\source\repos\TutorialAngular\TutorialAngular\obj\Debug\TutorialAngular.esproj.CoreCompileInputs.cache

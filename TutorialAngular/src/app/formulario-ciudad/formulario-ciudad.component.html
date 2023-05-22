@@ -1,0 +1,22 @@
+<div class="contenedor">
+  <h1>{{ title }}</h1>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <mat-form-field>
+      <mat-label>Nombre</mat-label>
+      <input matInput formControlName="nombre" required />
+      <mat-error *ngFor="let error of getErrors(form.get('nombre')!, 'Nombre')">
+        {{ error }}
+      </mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button
+            color="primary"
+            [disabled]="form.invalid || this.isBusy"
+            type="submit">
+      {{ this.id ? 'Actualizar' : 'Crear' }}
+    </button>
+
+  </form>
+</div>
